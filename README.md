@@ -7,4 +7,6 @@ This tool was presented in ICSE 2011. The link for the paper can be found [here]
 
 The tool was developed by Florian Deissenboeck, Lars Heinemann, Benjamin Hummel, Elmar Juergens.
 
+This repository was constructed by [Vinay Suryadevara](https://github.com/vinay92) under the supervision of [Dr. Emerson Murphy-Hill](https://github.com/CaptainEmerson).
+
 The tool is licensed under the Apache License 2.0
