@@ -4,7 +4,7 @@ Repository for the tool "ConQat"
 This is a github repository for the tool "ConQat". This _is not_ the original repository for the tool.
 The binaries for the tool can be found at https://www.cqse.eu/en/products/conqat/install/
 
-This tool was presented in ICSE 2011. The link for the paper can be found [here](http://dl.acm.org/citation.cfm?id=1810343) 
+This tool was presented in ICSE 2010. The link for the paper can be found [here](http://dl.acm.org/citation.cfm?id=1810343) 
 
 The tool was developed by Florian Deissenboeck, Lars Heinemann, Benjamin Hummel, Elmar Juergens.
 
