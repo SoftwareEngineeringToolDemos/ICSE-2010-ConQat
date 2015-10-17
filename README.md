@@ -9,4 +9,4 @@ The tool was developed by Florian Deissenboeck, Lars Heinemann, Benjamin Hummel,
 
 This repository was constructed by [Vinay Suryadevara](https://github.com/vinay92) under the supervision of [Dr. Emerson Murphy-Hill](https://github.com/CaptainEmerson).
 
-The tool is licensed under the Apache License 2.0
+The tool is licensed under the Apache License 2.0. But upon the authors request, the binaries for the tool have not been uploaded in this repository.
