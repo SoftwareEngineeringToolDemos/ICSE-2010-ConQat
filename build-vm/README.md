@@ -6,9 +6,7 @@
 1. Copy the Vagrantfile to the host on which the VM needs to be installed. 
 
 2. In the folder with the Vagrantfile, execute the following command:
-``` vagrant up ``` 
-
-Note: Virtual box must be installed on the VM.
+``` vagrant up ```.Note: Virtual box must be installed on the VM.
 
 3. Wait for the VM to be started. Now the script automatically executes the commands required to install JDK 1.8 onto the VM. This happens in the shell.
 Note: SSH Authentication must be enabled and functioning. 
