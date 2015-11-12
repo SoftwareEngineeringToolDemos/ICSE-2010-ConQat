@@ -22,4 +22,5 @@ Note: SSH Authentication must be enabled and functioning.
 * password: *vagrant*
 
 ### Acknowledgments
+* https://docs.vagrantup.com/v2/provisioning/shell.html
 
