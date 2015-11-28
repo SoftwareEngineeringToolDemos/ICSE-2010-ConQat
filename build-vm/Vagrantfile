@@ -3,6 +3,9 @@ config.vm.box = "box-cutter/ubuntu1404-desktop"
 config.vm.provider "virtualbox" do |vb|
 vb.gui = true
 vb.memory = "2048"
+vb.name = "Conqat_Beaufort"
+vb.customize ["modifyvm", :id, "--usb", "off"]
+vb.customize ["modifyvm", :id, "--usbehci", "off"]
 end
 config.vm.provision "shell", inline: <<-SHELL
 
@@ -12,6 +15,25 @@ sudo apt-get update
 sudo apt-get install oracle-java8-installer
 echo "Setting environment variables for Java 8.."
 sudo apt-get install -y oracle-java8-set-default
-
+tar -xvf /vagrant/Conqat.tar.gz
+cp -r /home/vagrant/Conqat /home/vagrant/Desktop/Conqat
+sudo cp /vagrant/eclipse.desktop /usr/share/applications
+sudo mkdir /home/vagrant/.config/autostart
+cp /vagrant/eclipse.desktop /home/vagrant/.config/autostart
+sudo rm /usr/share/applications/ubuntu-amazon-default.desktop 
+sudo rm /usr/share/applications/firefox.desktop 
+sudo rm /usr/share/applications/ubuntu-software-center.desktop
+sudo rm /usr/share/applications/libreoffice-calc.desktop 
+sudo rm /usr/share/applications/libreoffice-impress.desktop
+sudo rm /usr/share/applications/libreoffice-writer.desktop
+cp /vagrant/README.txt /home/vagrant/Desktop/README.txt
+cp /vagrant/License.txt /home/vagrant/Desktop/License.txt
+cp /vagrant/Installation.txt /home/vagrant/Desktop/Installation.txt
+cp /vagrant/youtube.desktop /home/vagrant/Desktop/LinkToDemo.desktop
+sudo chmod 777 /home/vagrant/Desktop/LinkToDemo.desktop
+sudo chmod 777 /home/vagrant/Desktop/Installation.txt
+sudo chmod 777 /home/vagrant/Desktop/README.txt
 SHELL
+config.vm.provision :reload
 end
+

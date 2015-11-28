@@ -1,0 +1,8 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Eclipse
+Comment=Eclipse IDE
+Exec=sudo /home/vagrant/Desktop/Conqat/conqat-2015.2/eclipse -data /home/vagrant/Desktop/Conqat/ConqatWorkspace
+Categories=Application;Development;Java;IDE
+Type=Application
+Terminal=0

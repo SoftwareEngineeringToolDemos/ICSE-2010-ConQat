@@ -1,0 +1,8 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Demo Video
+Comment=Play Eclipse video
+Exec=sudo firefox https://www.youtube.com/watch?v=0Ii5aP8REwY
+Categories=Application;Development;
+Type=Application
+Terminal=0

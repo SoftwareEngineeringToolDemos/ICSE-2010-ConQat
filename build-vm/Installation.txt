@@ -1,0 +1,11 @@
+The tool has already been installed on this VM. But if the user is interested in doing a manual installation, then they should follow the below instructions.
+
+Instructions to Install ConQat:
+1. The tool can be downloaded from this link. (https://www.cqse.eu/download/conqat/conqat-2015.2-linux-gtk-x86_64.tar.gz)
+2. Once the tar.gz is downloaded, untar it to any location on disk and open the folder.
+3. Run the eclipse binary inside the folder. This sets up the tool on the system. 
+
+Further Instructions on running different configurations can be seen at the tool website - https://www.cqse.eu/en/products/conqat/tutorials-documentation/
+
+References:
+https://www.cqse.eu/en/products/conqat/overview/
