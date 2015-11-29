@@ -8,24 +8,32 @@ vb.customize ["modifyvm", :id, "--usb", "off"]
 vb.customize ["modifyvm", :id, "--usbehci", "off"]
 end
 config.vm.provision "shell", inline: <<-SHELL
-
+#Installing java 8
 echo oracle-java8-installer shared/accepted-oracle-license-v1-1 select true | sudo /usr/bin/debconf-set-selections
 sudo add-apt-repository ppa:webupd8team/java -y
 sudo apt-get update
 sudo apt-get install oracle-java8-installer
 echo "Setting environment variables for Java 8.."
 sudo apt-get install -y oracle-java8-set-default
+
+#Extracting and installing the tool
 tar -xvf /vagrant/Conqat.tar.gz
-cp -r /home/vagrant/Conqat /home/vagrant/Desktop/Conqat
+cp -r /home/vagrant/Conqat /home/vagrant/Desktop/Conqat
+
+#Making the tool autostart on relaod
 sudo cp /vagrant/eclipse.desktop /usr/share/applications
 sudo mkdir /home/vagrant/.config/autostart
 cp /vagrant/eclipse.desktop /home/vagrant/.config/autostart
+
+#Removing unnecessary applications on sidebar
 sudo rm /usr/share/applications/ubuntu-amazon-default.desktop 
 sudo rm /usr/share/applications/firefox.desktop 
 sudo rm /usr/share/applications/ubuntu-software-center.desktop
 sudo rm /usr/share/applications/libreoffice-calc.desktop 
 sudo rm /usr/share/applications/libreoffice-impress.desktop
 sudo rm /usr/share/applications/libreoffice-writer.desktop
+
+#Copying required README and installation files and changing required permissions
 cp /vagrant/README.txt /home/vagrant/Desktop/README.txt
 cp /vagrant/License.txt /home/vagrant/Desktop/License.txt
 cp /vagrant/Installation.txt /home/vagrant/Desktop/Installation.txt
@@ -34,6 +42,8 @@ sudo chmod 777 /home/vagrant/Desktop/LinkToDemo.desktop
 sudo chmod 777 /home/vagrant/Desktop/Installation.txt
 sudo chmod 777 /home/vagrant/Desktop/README.txt
 SHELL
+
+#Reloading the VM. If the reload plugin is not installed, this step wont work. A manual reload has to be done to see the changes
 config.vm.provision :reload
 end
 
