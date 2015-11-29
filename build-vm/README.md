@@ -40,4 +40,7 @@ Note: SSH Authentication must be enabled and functioning.
 
 ### Acknowledgments
 * https://docs.vagrantup.com/v2/provisioning/shell.html
+* https://github.com/aidanns/vagrant-reload
+* http://hameedullah.com/vagrant-101-basic-virtual-machine-customizations.html
+* http://askubuntu.com/questions/281293/creating-a-desktop-file-for-a-new-application
 
