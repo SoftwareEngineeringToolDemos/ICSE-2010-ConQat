@@ -1,3 +1,5 @@
+<h1>Instructions to install Conqat using scripts in this build-vm folder</h1>
+
 #### Contents:
 1. **Vagrantfile** - This is the file which is used to provision the VM and it also has commands which are run in the shell in order to install the required dependencies for the tool. This is done automatically via the Vagrantfile.
 2. **README.txt** - A readme file which has instructions on how to run the tool in the VM. This file needs to be downloaded since it will be copied into the VM.
