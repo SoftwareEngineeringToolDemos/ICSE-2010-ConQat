@@ -20,7 +20,7 @@ sudo apt-get install -y oracle-java8-set-default
 tar -xvf /vagrant/Conqat.tar.gz
 cp -r /home/vagrant/Conqat /home/vagrant/Desktop/Conqat
 
-#Making the tool autostart on relaod
+#Making the tool autostart on reload
 sudo cp /vagrant/eclipse.desktop /usr/share/applications
 sudo mkdir /home/vagrant/.config/autostart
 cp /vagrant/eclipse.desktop /home/vagrant/.config/autostart
