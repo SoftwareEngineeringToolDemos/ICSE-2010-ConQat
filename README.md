@@ -6,7 +6,7 @@ The binaries for the tool can be found [on this page](https://www.cqse.eu/en/pro
 
 This tool was presented in ICSE 2010. The link for the paper can be found [here](http://dl.acm.org/citation.cfm?id=1810343) 
 
-The tool was developed by Florian Deissenboeck, Lars Heinemann, Benjamin Hummel, Elmar Juergens.
+The tool was developed by Florian Deissenboeck, Lars Heinemann, Benjamin Hummel, Elmar Juergens and we would like to thank them for all their help in setting up the tool.
 
 In this repository for ConQat you will find:
 * :x: Source code (not available)
