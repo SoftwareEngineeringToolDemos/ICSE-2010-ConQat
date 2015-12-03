@@ -1,8 +1,8 @@
 # ICSE-2010-ConQat
 Repository for the tool "ConQat"
 
-This is a github repository for the tool "ConQat". This _is not_ the original repository for the tool.
-The binaries for the tool can be found at https://www.cqse.eu/en/products/conqat/install/
+This is a github repository for the tool "ConQat". This _is not_ the original repository for the tool. The original project can be found at - [Official project page](https://www.cqse.eu/en/products/conqat/overview/).
+The binaries for the tool can be found [on this page](https://www.cqse.eu/en/products/conqat/install/).
 
 This tool was presented in ICSE 2010. The link for the paper can be found [here](http://dl.acm.org/citation.cfm?id=1810343) 
 
