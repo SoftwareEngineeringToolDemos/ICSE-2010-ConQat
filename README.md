@@ -10,6 +10,7 @@ The tool was developed by Florian Deissenboeck, Lars Heinemann, Benjamin Hummel,
 
 In this repository for ConQat you will find:
 * :x: Source code (not available)
+* :x: Virtual machine containing tool (not available)
 * :white_check_mark: [Link to the original Binaries in the tool's websites](https://www.cqse.eu/en/products/conqat/install/)
 
 This repository was constructed by [Vinay Suryadevara](https://github.com/vinay92) under the supervision of [Dr. Emerson Murphy-Hill](https://github.com/CaptainEmerson).
